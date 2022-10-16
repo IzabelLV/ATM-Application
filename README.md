@@ -5,5 +5,5 @@ Preview:
 
 ![first](https://user-images.githubusercontent.com/100083184/196025284-03a08e59-bc79-4046-ad99-0e95a883c7c4.png)
 
-![second](https://user-images.githubusercontent.com/100083184/196025378-2e50ceaf-49df-4dff-88c1-98337da300f2.png)
+![second](https://user-images.githubusercontent.com/100083184/196025446-b5b75b1e-3c3d-4962-bdbe-a112a2997e50.png)
 
