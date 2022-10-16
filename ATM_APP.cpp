@@ -17,7 +17,6 @@ int main() {
 
 		switch (Option) {
 		case 1:
-
 			std::cout << "Your balance: " << Balance << " lv.\n";
 			break;
 
