@@ -6,6 +6,8 @@ int main() {
 
 	int Option;
 	double Balance = 220;
+	double depositAmount;
+	double withdrawAmount;
 
 	do {
 		
@@ -21,14 +23,12 @@ int main() {
 
 		case 2:
 			std::cout << "Deposit amount: ";
-			double depositAmount;
 			std::cin >> depositAmount;
 			Balance += depositAmount;
-			std::cout << "Succesffully deposited.\n";
+			std::cout << "Successfully deposited.\n";
 			break;
 
 		case 3:
-			double withdrawAmount;
 			std::cout << "Withdraw amount: ";
 			std::cin >> withdrawAmount;
 			Balance -= withdrawAmount;
@@ -45,6 +45,6 @@ int main() {
 			std::cout << "Error" << std::endl;
 		} 
 	} while (Option != 4);
-
-    system("pause>0");
+	
+	system("pause>0");
 }
