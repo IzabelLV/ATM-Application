@@ -30,14 +30,11 @@ int main() {
 		case 3:
 			std::cout << "Withdraw amount: ";
 			std::cin >> withdrawAmount;
-			Balance -= withdrawAmount;
-			std::cout << "Successfully withdrawn.\n";
-
 			if (withdrawAmount <= Balance)
 				Balance -= withdrawAmount;
+				std::cout << "Successfully withdrawn.\n";
 			else
 				std::cout << "Not enough money \n";
-			Balance += depositAmount;
 			break;
 
 		default: 
